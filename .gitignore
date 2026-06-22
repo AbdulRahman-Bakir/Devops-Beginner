@@ -1,0 +1,7 @@
+# Generated archive outputs and run logs
+log-archive-tool/log-archives/*.tar.gz
+log-archive-tool/logs.txt
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
