@@ -12,6 +12,7 @@ or any Linux host).
 | [Log Archive Tool](./log-archive-tool) | https://roadmap.sh/projects/log-archive-tool |
 | [Nginx Log Analyser](./Nginx-Log-Analyser) | https://roadmap.sh/projects/nginx-log-analyser |
 | [GitHub Pages Deployment](./Github-Pages-Deployment) | https://roadmap.sh/projects/github-actions-deployment-workflow |
+| [SSH Remote Server Setup](./SSH-Remote-Server-Setup) | https://roadmap.sh/projects/ssh-remote-server-setup |
 
 ## Usage
 
@@ -40,3 +41,8 @@ A GitHub Actions workflow that deploys a static `index.html` to GitHub Pages on
 push to `main`. To actually deploy, the contents of this folder must live at the
 **root** of a dedicated repository (the workflow at `.github/workflows/deploy.yml`),
 with GitHub Pages set to "GitHub Actions" as the source.
+
+### SSH Remote Server Setup
+Sets up a remote Linux server (AWS EC2) and configures SSH access using two
+separate key pairs, plus a `~/.ssh/config` alias for quick connection. See the
+project folder for the full write-up.
