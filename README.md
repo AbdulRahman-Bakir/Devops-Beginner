@@ -13,6 +13,7 @@ or any Linux host).
 | [Nginx Log Analyser](./Nginx-Log-Analyser) | https://roadmap.sh/projects/nginx-log-analyser |
 | [GitHub Pages Deployment](./Github-Pages-Deployment) | https://roadmap.sh/projects/github-actions-deployment-workflow |
 | [SSH Remote Server Setup](./SSH-Remote-Server-Setup) | https://roadmap.sh/projects/ssh-remote-server-setup |
+| [Static Site Server](./Static-Site-Server) | https://roadmap.sh/projects/static-site-server |
 
 ## Usage
 
@@ -46,3 +47,8 @@ with GitHub Pages set to "GitHub Actions" as the source.
 Sets up a remote Linux server (AWS EC2) and configures SSH access using two
 separate key pairs, plus a `~/.ssh/config` alias for quick connection. See the
 project folder for the full write-up.
+
+### Static Site Server
+Deploys a static website to an AWS EC2 server using Nginx and rsync. The deployment
+can be automated using a Bash `deploy.sh` script. See the project folder for the
+full write-up.
